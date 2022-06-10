@@ -1,0 +1,59 @@
+﻿.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas:
+        'header1 main'
+        'header2 main'
+        'JEZIK JEZIK';
+}
+
+.myContainer {
+    margin-top: 50px;
+    text-align: center;
+    grid-area: JEZIK;
+}
+
+.footer {
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.myText {
+    padding-bottom: 30px;
+}
+
+.item1 #btnRegister {
+    grid-area: header1;
+    background-color: black;
+}
+
+.item2 #btnLogin {
+    grid-area: header2;
+    background-color: hotpink;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+    .item3 #btnPlay {
+        height: 300px;
+    }
+
+.btn {
+    height: 150px;
+    width: 150px;
+}

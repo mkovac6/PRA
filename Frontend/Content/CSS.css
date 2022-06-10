@@ -1,0 +1,59 @@
+﻿.MojNaslov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.MojTimer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 45px;
+    color:lightblue;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonGrid {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.MojButton {
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.PlayerLista {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.QuizKontrola {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dviTable{
+    display:flex;
+    flex-direction:row;
+}
+
+.doBorder {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:10%;
+}

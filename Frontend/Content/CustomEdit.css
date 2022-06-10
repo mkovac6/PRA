@@ -1,0 +1,27 @@
+﻿.my-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-card {
+    width: 45%;
+    margin: 1rem;
+}
+
+.card-header {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.edit-container {
+    width: 400px;
+    margin-top: 2rem;
+}
+
+
+.btnl{
+    background-color:lightblue;
+    color: aquamarine;
+    
+}
